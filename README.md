@@ -41,7 +41,7 @@ Desenvolvido meu primeiro portfólio, onde exercitei e treinei alguns conceitos 
 - [x] implementado seleção de dark e light mode para visualização da página.
       <br>
 
-<!-- - Acesse o projeto finalizado, [clicando aqui](). -->
+- Acesse o projeto finalizado, [clicando aqui](https://hugobertoncelo.github.io/Portfolio/).
 
 ## :memo: Licença
 
