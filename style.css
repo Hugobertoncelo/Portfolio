@@ -567,7 +567,7 @@ img.balls {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
-  padding: 0 15rem 10rem;
+  /* padding: 0 15rem 10rem; */
 }
 
 .row {
@@ -900,9 +900,7 @@ form textarea{
   .about-img{
     padding-left: 0;
   }
-  .premios img{
-    width: 95%;
-  }
+  
   .home-text{
     width: 70%;
   }
@@ -1051,6 +1049,6 @@ form textarea{
   .techs {
     display: grid;
     /* grid-template-rows: repeat(4, 1fr); */
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 2fr);
   }
 }
