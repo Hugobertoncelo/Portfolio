@@ -306,7 +306,7 @@ section {
 
 @media (max-width: 1180px) {
   .home .home-mac {
-    width: 55vh;
+    width: 45vh;
     position: static;
     /* z-index: 1; */
     right: 0;
