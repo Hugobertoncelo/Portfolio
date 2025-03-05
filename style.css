@@ -29,7 +29,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
-  --bg-image-home: url("./img/bg-home-dark-3.jpg");
+  --bg-image-home: url("https://wallpapers.com/images/hd/4k-black-3840-x-2160-background-huozj0memde22a21.jpg");
   --position-bg-home: 15rem -7rem;
   --logo-github: url("./img/logo-github-white.svg");
   --logo-github-hover: url("./img/logo-github-orange.svg");
@@ -60,7 +60,7 @@
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
-  --bg-image-home: url("./img/bg-home-light-3.avif");
+  --bg-image-home: url("https://i.pinimg.com/736x/f3/47/b5/f347b5cd1fc6c33005025aaf209489dd.jpg");
   --position-bg-home: -70rem 0;
   --logo-github: url("./img/logo-github-black.svg");
   --logo-github-hover: url("./img/logo-github-orange.svg");
@@ -78,6 +78,9 @@
 
 body {
   background: var(--bg-color);
+  background-image: var(--bg-image-home);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--text-color);
   font-family: var(--first-font);
 }
