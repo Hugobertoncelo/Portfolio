@@ -13,18 +13,18 @@ window.onscroll = () => {
 
 const list = document.querySelectorAll('[name="nav-a"]')
 
-function activeLink(){
+function activeLink() {
 	list.forEach((item) =>
-	item.classList.remove('active'))
+		item.classList.remove('active'))
 	this.classList.add('active')
 }
 
 list.forEach((item) =>
-item.addEventListener('click', activeLink))
+	item.addEventListener('click', activeLink))
 
-function toggleMode(){
-  const html = document.documentElement
+function toggleMode() {
+	const html = document.documentElement
 
-  html.classList.toggle('light')
+	html.classList.toggle('light')
 }
 
