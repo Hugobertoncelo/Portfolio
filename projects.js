@@ -221,6 +221,14 @@ const projectsData = [
     liveLink: " https://hugobertoncelo.github.io/Snake-Game/",
     githubLink: "https://github.com/Hugobertoncelo/Snake-Game",
   },
+  {
+    imgSrc: "./img/tarefas-react.png",
+    altText: "tarefas",
+    title: "Gerenciador de Tarefas",
+    description: "Gerenciador de tarefas intuitivo onde você pode adicionar, concluir e excluir suas atividades. O diferencial? Todas as suas tarefas são salvas diretamente no armazenamento local do navegador, garantindo que nada se perca ao recarregar a página!",
+    liveLink: "https://tarefas-react-iota.vercel.app/",
+    githubLink: "https://github.com/Hugobertoncelo/Tarefas-React",
+  },
 ];
 
 const portfolioContent = document.getElementById("portfolio-content");
