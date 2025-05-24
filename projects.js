@@ -17,7 +17,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Relogio-Digital",
   },
   {
-    imgSrc: "./img/dev-sorteio.png",
+    imgSrc: "./img/sorteio.png",
     altText: "Sorteador",
     title: "Sorteador",
     description: "Desenvolvido um sorteador simples. Utilizado html, css e js",
