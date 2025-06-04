@@ -229,6 +229,14 @@ const projectsData = [
     liveLink: "https://tarefas-react-iota.vercel.app/",
     githubLink: "https://github.com/Hugobertoncelo/Tarefas-React",
   },
+  {
+    imgSrc: "./img/movies.png",
+    altText: "movies",
+    title: "Filmes e Séries",
+    description: "Este projeto é uma aplicação web desenvolvida em React que permite aos usuários explorar um vasto catálogo de filmes e séries. Com uma interface ainda em produção, o site oferece funcionalidades como filtros por gênero, classificação por popularidade e detalhes completos de cada título, incluindo sinopse, elenco, avaliações e trailers.",
+    liveLink: "https://movies-rho-lyart.vercel.app/",
+    githubLink: "https://github.com/Hugobertoncelo/Movies",
+  },
 ];
 
 const portfolioContent = document.getElementById("portfolio-content");
