@@ -237,6 +237,14 @@ const projectsData = [
     liveLink: "https://movies-rho-lyart.vercel.app/",
     githubLink: "https://github.com/Hugobertoncelo/Movies",
   },
+  {
+    imgSrc: "./img/lojinha.png",
+    altText: "loja",
+    title: "Loja Virtual",
+    description: "Uma loja virtual encantadora voltada para o universo infantil, com um design lúdico, responsivo e experiência de navegação intuitiva. O projeto foi desenvolvido com Angular e TypeScript, focando em performance, organização e facilidade de uso.",
+    liveLink: "https://loja-virtual-angular.vercel.app/produtos",
+    githubLink: "https://github.com/Hugobertoncelo/Loja-virtual-angular",
+  },
 ];
 
 const portfolioContent = document.getElementById("portfolio-content");
