@@ -676,11 +676,13 @@ img.balls {
   border: 2px #800080 solid;
   width: 17rem;
   margin-bottom: 1rem;
+  margin-top: 24px;
 }
 
 @media (max-width: 768px) {
   .line {
     width: 10rem;
+    margin-top: 25px;
   }
 }
 
@@ -972,6 +974,88 @@ img.balls {
 
 .row:hover .layer {
   height: 100%;
+}
+
+/* -------------local projects---------- */
+
+.local-projects {
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.local-projects h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  border-bottom: 3px solid #4a90e2;
+  padding-bottom: 0.4rem;
+  margin-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.local-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.6rem 1.4rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.8rem;
+  font-family: "Lato", sans-serif;
+}
+
+.project-card p {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.4rem;
+  line-height: 1.4;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-link {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.5rem 1.2rem;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 7px rgba(74, 144, 226, 0.4);
+}
+
+.btn-link:hover {
+  background-color: #357abd;
+  box-shadow: 0 5px 15px rgba(53, 122, 189, 0.5);
 }
 
 /* --------------- contact ----------------------- */
