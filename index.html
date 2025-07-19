@@ -37,49 +37,7 @@
     <meta property="og:image/type" />
   </head>
   <body>
-    <!-- header design -->
-    <nav>
-      <ul class="navlist">
-        <li class="active" name="nav-li">
-          <a href="#home" class="active" name="nav-a">Início</a>
-        </li>
-        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
-        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
-        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
-        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
-      </ul>
-
-      <div>
-        <ul class="social-network">
-          <li>
-            <div id="switch" onclick="toggleMode()">
-              <button></button>
-              <span></span>
-            </div>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/hugobertoncelo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <figure id="fig1"></figure>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/Hugobertoncelo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <figure id="fig2"></figure>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </nav>
+    <div id="navbar"></div>
 
     <main>
       <!-- home section -->
@@ -142,187 +100,8 @@
         </div>
       </section>
 
-      <!-- skills section -->
-      <section class="skills" id="skills">
-        <div class="line"></div>
-        <div class="tech">
-          <h2>TECNOLOGIAS</h2>
-          <div class="techs">
-            <div class="card">
-              <img src="./img/html-icon.svg" alt="icone html" />
-              <p>HTML</p>
-            </div>
-            <div class="card">
-              <img src="./img/css-icon.svg" alt="icone css" />
-              <p>CSS</p>
-            </div>
-            <div class="card">
-              <img src="./img/js-icon.svg" alt="icone javascript" />
-              <p>JavaScript</p>
-            </div>
-            <div class="card">
-              <img src="./img/react-js-icon.svg" alt="icone react.js" />
-              <p>React.js</p>
-            </div>
-            <div class="card">
-              <img src="./img/node-js-icon.svg" alt="icone node.js" />
-              <p>Node.js</p>
-            </div>
-            <div class="card">
-              <img src="./img/typescript-icon.svg" alt="icone typescript" />
-              <p>TypeScript</p>
-            </div>
-            <div class="card">
-              <img src="./img/mongodb-icon.svg" alt="icone mongo-db" />
-              <p>Mongodb</p>
-            </div>
-            <div class="card">
-              <img src="./img/git-icon.svg" alt="icone git" />
-              <p>Git</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="line"></div>
-        <div class="tool">
-          <h2>FERRAMENTAS</h2>
-          <div class="tools">
-            <div class="card">
-              <img src="./img/github-icon.svg" alt="icone github" />
-              <p>GitHub</p>
-            </div>
-            <div class="card">
-              <img src="./img/vs-code-icon.svg" alt="icone vscode" />
-              <p>VSCode</p>
-            </div>
-            <div class="card">
-              <img src="./img/figma-icon.svg" alt="icone figma" />
-              <p>Figma</p>
-            </div>
-            <div class="card">
-              <img src="./img/docker-icon.svg" alt="icone docker" />
-              <p>Docker</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- projects section -->
-      <section id="projects" class="projects">
-        <div class="line"></div>
-        <div class="main-text">
-          <h2>Meus <span>Projetos</span></h2>
-        </div>
-
-        <div class="portfolio-content" id="portfolio-content"></div>
-
-        <div class="line"></div>
-
-        <div class="local-projects">
-          <h3>Projetos Locais (sem deploy)</h3>
-          <div class="local-projects-grid">
-            <div class="project-card">
-              <h4>Projeto Exemplo 1</h4>
-              <p>
-                Site de cadastro simples, com formulários e validação básica.
-              </p>
-              <a
-                href="https://github.com/seuusuario/projeto-exemplo-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-link"
-                >Ver Repositório</a
-              >
-            </div>
-
-            <div class="project-card">
-              <h4>Projeto Exemplo 2</h4>
-              <p>App de tarefas com controle de prioridades e filtros.</p>
-              <a
-                href="https://github.com/seuusuario/projeto-exemplo-2"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-link"
-                >Ver Repositório</a
-              >
-            </div>
-
-            <div class="project-card">
-              <h4>Projeto Exemplo 3</h4>
-              <p>Dashboard administrativo para controle de vendas.</p>
-              <a
-                href="https://github.com/seuusuario/projeto-exemplo-3"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-link"
-                >Ver Repositório</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!----contact section --->
-      <section class="contact" id="contact">
-        <div class="contact-text">
-          <div class="main-text">
-            <h2>Entre em <span>contato</span></h2>
-          </div>
-        </div>
-
-        <div class="contact-form">
-          <form
-            action="https://formsubmit.co/hugobertoncelo@gmail.com"
-            method="POST"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Digite seu nome"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Digite seu e-mail"
-              required
-            />
-            <input type="hidden" name="_captcha" value="false" />
-            <textarea
-              type="text"
-              name="text"
-              cols="35"
-              rows="10"
-              placeholder="Como eu posso te ajudar?"
-              required
-            ></textarea>
-            <input
-              type="hidden"
-              name="_next"
-              value="https://hugobertoncelo.github.io/Portfolio/"
-            />
-            <br />
-            <input type="submit" value="Enviar" class="submit" required />
-          </form>
-        </div>
-
-        <div class="contact-icons">
-          <a href="https://github.com/Hugobertoncelo" target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/hugobertoncelo" target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://www.instagram.com/bertoncelo.hugo/" target="_blank"
-            ><i class="bx bxl-instagram-alt"></i
-          ></a>
-          <a href="mailto:hugobertoncelo@gmail.com" target="_blank"
-            ><i class="bx bxl-gmail"></i
-          ></a>
-        </div>
-      </section>
+      <div id="projects-section"></div>
     </main>
-
     <!----end section --->
     <section class="end">
       <div class="last-text">
@@ -346,7 +125,10 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
-    <script src="script.js"></script>
-    <script src="projects.js"></script>
+    <script src="script.js" defer></script>
+    <script src="header.js" defer></script>
+    <script src="projects-section.js" defer></script>
+    <script src="projects.js" defer></script>
+    <script src="sections.js" defer></script>
   </body>
 </html>
