@@ -1,0 +1,164 @@
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.line {
+  border: 2px #800080 solid;
+  width: 17rem;
+  margin-bottom: 1rem;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .line {
+    width: 10rem;
+    margin-top: 25px;
+  }
+}
+
+.tech h2 {
+  margin-bottom: 3rem;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 6.6rem;
+}
+
+@media (max-width: 1180px) {
+  .tech h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+.techs {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  max-width: 80rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 1100px) {
+  .techs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .techs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .techs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.tool h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4.7rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1180px) {
+  .tool h2 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tool h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.tools {
+  max-width: 65rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .tools {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .tools {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.card {
+  padding: 3rem;
+  background: var(--card-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  color: white;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.9rem;
+}
+
+@media (max-width: 768px) {
+  .card p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #800080;
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 7rem;
+  height: 7rem;
+}
+
+@media (max-width: 768px) {
+  .card img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.tools .card img {
+  height: 5rem;
+  width: 5rem;
+}
