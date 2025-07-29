@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    imgSrc: "./img/delivery.png",
+    imgSrc: "./img/projects/delivery.png",
     altText: "Delivery",
     title: "Delivery",
     description:
@@ -9,7 +9,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Delivery",
   },
   {
-    imgSrc: "./img/cronometro.png",
+    imgSrc: "./img/projects/cronometro.png",
     altText: "Relogio digital",
     title: "Relógio Digital",
     description: "Desenvolvido um relógio digital utilizado HTML, CSS e JS.",
@@ -17,7 +17,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Relogio-Digital",
   },
   {
-    imgSrc: "./img/sorteio.png",
+    imgSrc: "./img/projects/sorteio.png",
     altText: "Sorteador",
     title: "Sorteador",
     description: "Desenvolvido um sorteador simples. Utilizado html, css e js",
@@ -25,7 +25,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Dev-Sorteio",
   },
   {
-    imgSrc: "./img/conversor-moeda.png",
+    imgSrc: "./img/projects/conversor-moeda.png",
     altText: "conversor de moeda",
     title: "Conversor de moedas",
     description:
@@ -34,7 +34,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Conversor-de-moedas",
   },
   {
-    imgSrc: "./img/mario-game.png",
+    imgSrc: "./img/projects/mario-game.png",
     altText: "jogo do mario",
     title: "Mario Game",
     description:
@@ -43,7 +43,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Mario-Game",
   },
   {
-    imgSrc: "./img/we-care.png",
+    imgSrc: "./img/projects/we-care.png",
     altText: "we-care",
     title: "We care",
     description: "Projeto simples realizado em html e css.",
@@ -51,7 +51,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/we-care",
   },
   {
-    imgSrc: "./img/dev-links.png",
+    imgSrc: "./img/projects/dev-links.png",
     altText: "agregador de links",
     title: "DevLinks",
     description:
@@ -60,7 +60,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Projeto",
   },
   {
-    imgSrc: "./img/number-secret.png",
+    imgSrc: "./img/projects/number-secret.png",
     altText: "Numero secreto",
     title: "Número Secreto",
     description:
@@ -69,7 +69,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/logica-js-projeto_inicial",
   },
   {
-    imgSrc: "./img/mario-project.png",
+    imgSrc: "./img/projects/mario-project.png",
     altText: "mario bros",
     title: "Mario Bros",
     description:
@@ -78,7 +78,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/mario",
   },
   {
-    imgSrc: "./img/spotify.png",
+    imgSrc: "./img/projects/spotify.png",
     altText: "mario bros",
     title: "Projeto Spotify",
     description:
@@ -87,7 +87,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Spotify",
   },
   {
-    imgSrc: "./img/nlw-connect.png",
+    imgSrc: "./img/projects/nlw-connect.png",
     altText: "nlw-connect",
     title: "Nlw Connect",
     description:
@@ -96,7 +96,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/nlw-connect",
   },
   {
-    imgSrc: "./img/botequim.png",
+    imgSrc: "./img/projects/botequim.png",
     altText: "O-Botequim",
     title: "Cardápio Botequim",
     description:
@@ -105,7 +105,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Botequim",
   },
   {
-    imgSrc: "./img/fsw-donalds.png",
+    imgSrc: "./img/projects/fsw-donalds.png",
     altText: "fsw-donalds",
     title: "FSW Donalds",
     description:
@@ -114,7 +114,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Fullstackweek-donalds",
   },
   {
-    imgSrc: "./img/projeto-array.png",
+    imgSrc: "./img/projects/projeto-array.png",
     altText: "projeto-array",
     title: "Projeto Array",
     description:
@@ -123,7 +123,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Projeto-Array",
   },
   {
-    imgSrc: "./img/cadastro-usuario.png",
+    imgSrc: "./img/projects/cadastro-usuario.png",
     altText: "cadastro-usuario",
     title: "Cadastro de Usuários",
     description:
@@ -132,7 +132,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/cadastro-usuario",
   },
   {
-    imgSrc: "./img/cronometro1.png",
+    imgSrc: "./img/projects/cronometro1.png",
     altText: "cronometro",
     title: "Cronômetro",
     description:
@@ -141,7 +141,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Contador",
   },
   {
-    imgSrc: "./img/jokenpo.png",
+    imgSrc: "./img/projects/jokenpo.png",
     altText: "jokenpo",
     title: "Jokenpô",
     description:
@@ -150,7 +150,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Jokenpo",
   },
   {
-    imgSrc: "./img/calculadora.png",
+    imgSrc: "./img/projects/calculadora.png",
     altText: "calculadora",
     title: "Calculadora",
     description:
@@ -159,7 +159,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Calculadora",
   },
   {
-    imgSrc: "./img/jogo-da-velha.png",
+    imgSrc: "./img/projects/jogo-da-velha.png",
     altText: "jogo-da-velha",
     title: "Jogo da Velha",
     description:
@@ -168,7 +168,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Jogo-da-Velha",
   },
   {
-    imgSrc: "./img/tetris.png",
+    imgSrc: "./img/projects/tetris.png",
     altText: "tetris",
     title: "Tetris",
     description:
@@ -177,7 +177,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Tetris",
   },
   {
-    imgSrc: "./img/dragonball.png",
+    imgSrc: "./img/projects/dragonball.png",
     altText: "dragon ball",
     title: "Projeto DragonBall",
     description:
@@ -186,7 +186,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Projeto-DBZ",
   },
   {
-    imgSrc: "./img/compras.png",
+    imgSrc: "./img/projects/compras.png",
     altText: "lista-de-compras",
     title: "Lista de Compras",
     description:
@@ -195,7 +195,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Lista-de-Compras",
   },
   {
-    imgSrc: "./img/oficina.png",
+    imgSrc: "./img/projects/oficina.png",
     altText: "Oficina-Mecanica",
     title: "Oficina Mecânica",
     description:
@@ -204,7 +204,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Oficina-Mecanica",
   },
   {
-    imgSrc: "./img/simbar.png",
+    imgSrc: "./img/projects/simbar.png",
     altText: "simbar",
     title: "Cardápio Simbar",
     description:
@@ -213,7 +213,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Cardapio-Simbar",
   },
   {
-    imgSrc: "./img/snake-game.png",
+    imgSrc: "./img/projects/snake-game.png",
     altText: "snake",
     title: "Snake Game",
     description:
@@ -222,7 +222,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Snake-Game",
   },
   {
-    imgSrc: "./img/tarefas-react.png",
+    imgSrc: "./img/projects/tarefas-react.png",
     altText: "tarefas",
     title: "Gerenciador de Tarefas",
     description: "Gerenciador de tarefas intuitivo onde você pode adicionar, concluir e excluir suas atividades. O diferencial? Todas as suas tarefas são salvas diretamente no armazenamento local do navegador, garantindo que nada se perca ao recarregar a página!",
@@ -230,7 +230,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Tarefas-React",
   },
   {
-    imgSrc: "./img/movies.png",
+    imgSrc: "./img/projects/movies.png",
     altText: "movies",
     title: "Filmes e Séries",
     description: "Este projeto é uma aplicação web desenvolvida em React que permite aos usuários explorar um vasto catálogo de filmes e séries. Com uma interface ainda em produção, o site oferece funcionalidades como filtros por gênero, classificação por popularidade e detalhes completos de cada título, incluindo sinopse, elenco, avaliações e trailers.",
@@ -238,7 +238,7 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Movies",
   },
   {
-    imgSrc: "./img/lojinha.png",
+    imgSrc: "./img/projects/lojinha.png",
     altText: "loja",
     title: "Loja Virtual",
     description: "Uma loja virtual encantadora voltada para o universo infantil, com um design lúdico, responsivo e experiência de navegação intuitiva. O projeto foi desenvolvido com Angular e TypeScript, focando em performance, organização e facilidade de uso.",
@@ -246,35 +246,105 @@ const projectsData = [
     githubLink: "https://github.com/Hugobertoncelo/Loja-virtual-angular",
   },
   {
-    imgSrc: "./img/lista-contatos.png",
+    imgSrc: "./img/projects/lista-contatos.png",
     altText: "lista-contatos",
     title: "Lista de Contatos",
     description: "Este projeto é uma aplicação de lista de contatos desenvolvida com React, com foco em organização, interatividade e uma interface moderna. A aplicação permite cadastrar, editar, excluir e favoritar contatos, simulando um sistema simples de agenda digital.",
     liveLink: "https://lista-de-contatos-kappa-five.vercel.app/",
     githubLink: "https://github.com/Hugobertoncelo/lista-de-contatos",
   },
+  {
+    imgSrc: "./img/projects/tarefas.png",
+    altText: "lista-tarefas",
+    title: "Lista de Tarefas",
+    description: "Aplicação de Lista de Tarefas desenvolvida com React, TypeScript, Redux e Styled-components. Permite ao usuário criar, editar, remover e filtrar tarefas por nome e prioridade. Design responsivo, focado em usabilidade e organização eficiente do dia a dia.",
+    liveLink: "https://lista-de-tarefas-react-six.vercel.app/",
+    githubLink: "https://github.com/Hugobertoncelo/lista-de-tarefas-react",
+  },
 ];
 
 const portfolioContent = document.getElementById("portfolio-content");
+const projectsContainer = portfolioContent.parentNode; // container pai para colocar os botões
 
-projectsData.forEach((project) => {
-  const rowDiv = document.createElement("div");
-  rowDiv.classList.add("row");
+// Cria container para os botões
+const buttonsContainer = document.createElement("div");
+buttonsContainer.id = "buttons-container";
 
-  rowDiv.innerHTML = `
+// Botão principal: Mostrar Mais / Mostrar Menos (todos)
+const toggleButton = document.createElement("button");
+toggleButton.id = "toggle-button";
+
+// Botão fixo para voltar a 4
+const resetButton = document.createElement("button");
+resetButton.id = "reset-button";
+resetButton.textContent = "Mostrar Menos";
+resetButton.style.display = "none"; // começa escondido
+
+// Adiciona o container no DOM logo após portfolioContent
+projectsContainer.insertBefore(buttonsContainer, portfolioContent.nextSibling);
+
+// Coloca os botões dentro do container
+buttonsContainer.appendChild(toggleButton);
+buttonsContainer.appendChild(resetButton);
+
+let projectsShownCount = 4;
+
+function renderProjects() {
+  portfolioContent.innerHTML = "";
+
+  const projectsToShow = projectsData.slice(0, projectsShownCount);
+
+  projectsToShow.forEach((project) => {
+    const rowDiv = document.createElement("div");
+    rowDiv.classList.add("row");
+
+    rowDiv.innerHTML = `
       <img src="${project.imgSrc}" alt="${project.altText}" />
       <div class="layer">
         <h5>${project.title}</h5>
         <p>${project.description}</p>
         <div class="site-github">
-          <a href="${project.liveLink}" target="_blank">
+          <a href="${project.liveLink}" target="_blank" rel="noopener noreferrer">
             <i class="bx bx-link-external"></i>
           </a>
-          <a href="${project.githubLink}" target="_blank">
+          <a href="${project.githubLink}" target="_blank" rel="noopener noreferrer">
             <i class="bx bxl-github"></i>
           </a>
         </div>
       </div>
     `;
-  portfolioContent.appendChild(rowDiv);
+
+    portfolioContent.appendChild(rowDiv);
+  });
+
+  if (projectsData.length <= 4) {
+    toggleButton.style.display = "none";
+    resetButton.style.display = "none";
+  } else {
+    toggleButton.style.display = "inline-block";
+    toggleButton.textContent =
+      projectsShownCount >= projectsData.length ? "Mostrar Menos" : "Mostrar Mais";
+
+    resetButton.style.display = projectsShownCount > 4 ? "inline-block" : "none";
+  }
+}
+
+toggleButton.addEventListener("click", () => {
+  if (projectsShownCount >= projectsData.length) {
+    projectsShownCount = 4;
+  } else {
+    projectsShownCount += 4;
+    if (projectsShownCount > projectsData.length) {
+      projectsShownCount = projectsData.length;
+    }
+  }
+  renderProjects();
 });
+
+resetButton.addEventListener("click", () => {
+  projectsShownCount = 4;
+  renderProjects();
+});
+
+renderProjects();
+

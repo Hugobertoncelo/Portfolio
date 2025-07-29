@@ -42,6 +42,9 @@
   --bg-form: rgba(24, 24, 24, 0.726);
 
   --color-social-media: #ffffff;
+
+  --project-bg: linear-gradient(145deg, #1f1f1f, #2c2c2c);
+  --card-bg-color: #2a2a2a;
 }
 
 .light {
@@ -72,6 +75,9 @@
   --bg-form: rgba(255, 255, 255, 0.726);
 
   --color-social-media: #9932cc;
+
+  --project-bg: linear-gradient(145deg, #e8f0ff, #ffffff);
+  /* --card-bg-color: #ffffff; */
 }
 
 body {
@@ -127,10 +133,14 @@ nav {
     flex-direction: column;
     position: absolute;
     top: 100%;
-    width: 100%;
+    right: 0;
+    width: auto;
+    min-width: 200px;
     background: var(--bg-color);
-    padding: 1rem 0;
+    padding: 1rem;
     gap: 2rem;
+    border-radius: 0 0 0 12px;
+    box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.2);
   }
 
   .navlist.open {
@@ -220,28 +230,15 @@ figure {
   width: 3rem;
 }
 
-#fig1 {
-  background-image: var(--logo-linkedin);
-  background-size: 3rem;
-  transition: all 0.45s ease;
+.social-network li a i {
+  font-size: 2.4rem;
+  color: var(--text-color);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-#fig1:hover {
-  background-image: var(--logo-linkedin-hover);
-  background-size: 3rem;
-  transform: scale(0.9);
-}
-
-#fig2 {
-  background-image: var(--logo-github);
-  background-size: 3rem;
-  transition: all 0.45s ease;
-}
-
-#fig2:hover {
-  background-image: var(--logo-github-hover);
-  background-size: 3rem;
-  transform: scale(0.9);
+.social-network li a i:hover {
+  transform: scale(1.2);
+  color: #6a3ab7;
 }
 
 #menu-icon {

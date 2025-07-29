@@ -1,30 +1,27 @@
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
-
-menu.onclick = () => {
-	menu.classList.toggle('bx-x');
-	navlist.classList.toggle('open');
+window.toggleMode = function () {
+	document.documentElement.classList.toggle('light');
 };
 
-window.onscroll = () => {
-	menu.classList.remove('bx-x');
-	navlist.classList.remove('open');
-};
+document.addEventListener('DOMContentLoaded', () => {
+	const menu = document.querySelector('#menu-icon');
+	const navlist = document.querySelector('.navlist');
 
-const list = document.querySelectorAll('[name="nav-a"]')
+	menu.onclick = () => {
+		menu.classList.toggle('bx-x');
+		navlist.classList.toggle('open');
+	};
 
-function activeLink() {
-	list.forEach((item) =>
-		item.classList.remove('active'))
-	this.classList.add('active')
-}
+	window.onscroll = () => {
+		menu.classList.remove('bx-x');
+		navlist.classList.remove('open');
+	};
 
-list.forEach((item) =>
-	item.addEventListener('click', activeLink))
+	const list = document.querySelectorAll('[name="nav-a"]');
 
-function toggleMode() {
-	const html = document.documentElement
+	function activeLink() {
+		list.forEach(item => item.classList.remove('active'));
+		this.classList.add('active');
+	}
 
-	html.classList.toggle('light')
-}
-
+	list.forEach(item => item.addEventListener('click', activeLink));
+});

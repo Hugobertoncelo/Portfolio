@@ -20,12 +20,22 @@ document.getElementById('navbar').innerHTML = `
       </li>
       <li>
         <a href="https://www.linkedin.com/in/hugobertoncelo" target="_blank" rel="noopener noreferrer">
-          <figure id="fig1"></figure>
+          <i class="bx bxl-linkedin"></i>
         </a>
       </li>
       <li>
         <a href="https://github.com/Hugobertoncelo" target="_blank" rel="noopener noreferrer">
-          <figure id="fig2"></figure>
+          <i class="bx bxl-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/5528999453033" target="_blank" rel="noopener noreferrer">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/bertoncelo.hugo/" target="_blank" rel="noopener noreferrer">
+          <i class="bx bxl-instagram"></i>
         </a>
       </li>
     </ul>

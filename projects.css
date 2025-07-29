@@ -142,3 +142,45 @@
 .row:hover .layer {
   height: 100%;
 }
+
+/*botão mostrar mais e menos*/
+
+#projects-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+#buttons-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+#toggle-button,
+#reset-button {
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  margin-top: 0;
+}
+
+#toggle-button {
+  background-color: var(--second-bg-color);
+}
+
+#toggle-button:hover {
+  background-color: var(--second-text-color);
+}
+
+#reset-button {
+  background-color: var(--second-bg-color);
+}
+
+#reset-button:hover {
+  background-color: var(--second-text-color);
+}
