@@ -245,6 +245,14 @@ const projectsData = [
     liveLink: "https://loja-virtual-angular.vercel.app/produtos",
     githubLink: "https://github.com/Hugobertoncelo/Loja-virtual-angular",
   },
+  {
+    imgSrc: "./img/lista-contatos.png",
+    altText: "lista-contatos",
+    title: "Lista de Contatos",
+    description: "Este projeto é uma aplicação de lista de contatos desenvolvida com React, com foco em organização, interatividade e uma interface moderna. A aplicação permite cadastrar, editar, excluir e favoritar contatos, simulando um sistema simples de agenda digital.",
+    liveLink: "https://lista-de-contatos-kappa-five.vercel.app/",
+    githubLink: "https://github.com/Hugobertoncelo/lista-de-contatos",
+  },
 ];
 
 const portfolioContent = document.getElementById("portfolio-content");
