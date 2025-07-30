@@ -49,4 +49,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-by Hugo Bertoncelo <img src="./img/bussola.svg" alt="" width="20rem" align="center">
+by Hugo Bertoncelo <img src="./img/icons/bussola.svg" alt="" width="20rem" align="center">

@@ -21,14 +21,14 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="tech">
       <h2>TECNOLOGIAS</h2>
       <div class="techs">
-        ${createCard('./img/html-icon.svg', 'icone html', 'HTML')}
-        ${createCard('./img/css-icon.svg', 'icone css', 'CSS')}
-        ${createCard('./img/js-icon.svg', 'icone javascript', 'JavaScript')}
-        ${createCard('./img/react-js-icon.svg', 'icone react.js', 'React.js')}
-        ${createCard('./img/node-js-icon.svg', 'icone node.js', 'Node.js')}
-        ${createCard('./img/typescript-icon.svg', 'icone typescript', 'TypeScript')}
-        ${createCard('./img/mongodb-icon.svg', 'icone mongo-db', 'Mongodb')}
-        ${createCard('./img/git-icon.svg', 'icone git', 'Git')}
+        ${createCard('./img/icons/html-icon.svg', 'icone html', 'HTML')}
+        ${createCard('./img/icons/css-icon.svg', 'icone css', 'CSS')}
+        ${createCard('./img/icons/js-icon.svg', 'icone javascript', 'JavaScript')}
+        ${createCard('./img/icons/react-js-icon.svg', 'icone react.js', 'React.js')}
+        ${createCard('./img/icons/node-js-icon.svg', 'icone node.js', 'Node.js')}
+        ${createCard('./img/icons/typescript-icon.svg', 'icone typescript', 'TypeScript')}
+        ${createCard('./img/icons/mongodb-icon.svg', 'icone mongo-db', 'Mongodb')}
+        ${createCard('./img/icons/git-icon.svg', 'icone git', 'Git')}
       </div>
     </div>
 
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="tool">
       <h2>FERRAMENTAS</h2>
       <div class="tools">
-        ${createCard('./img/github-icon.svg', 'icone github', 'GitHub')}
-        ${createCard('./img/vs-code-icon.svg', 'icone vscode', 'VSCode')}
-        ${createCard('./img/figma-icon.svg', 'icone figma', 'Figma')}
-        ${createCard('./img/docker-icon.svg', 'icone docker', 'Docker')}
+        ${createCard('./img/icons/github-icon.svg', 'icone github', 'GitHub')}
+        ${createCard('./img/icons/vs-code-icon.svg', 'icone vscode', 'VSCode')}
+        ${createCard('./img/icons/figma-icon.svg', 'icone figma', 'Figma')}
+        ${createCard('./img/icons/docker-icon.svg', 'icone docker', 'Docker')}
       </div>
     </div>
   `;
