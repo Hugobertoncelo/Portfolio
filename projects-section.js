@@ -8,15 +8,19 @@ document.getElementById('projects-section').innerHTML = `
   <div class="portfolio-content" id="portfolio-content"></div>
 
   <div class="line"></div>
-
-  <div class="local-projects">
-    <h3><i class="fas fa-folder-open"></i> Projetos Locais (Sem Deploy)</h3>
-    <div class="local-projects-grid" id="local-projects-grid">
+    <div class="local-projects">
+      <h3><i class="fas fa-folder-open"></i> Projetos Locais (Sem Deploy)</h3>
+      <div class="local-projects-grid" id="local-projects-grid">
       <div class="project-card">
-        <h4>📄 Projeto Exemplo 1</h4>
-        <p>Site de cadastro simples, com formulários estilizados, responsividade e validação básica.</p>
-        <a href="https://github.com/seuusuario/projeto-exemplo-1" target="_blank" class="btn-link">🔗 Ver Repositório</a>
+      <h4>📄 DevBurguer</h4>
+      <p>Um site moderno para uma hamburgueria fictícia, com foco em experiência do usuário, design responsivo e funcionalidades práticas para pedidos online.</p>
+      
+      <div class="btn-group">
+        <a href="https://github.com/Hugobertoncelo/devburguer" target="_blank" class="btn-link">🎨 Front-End</a>
+        <a href="https://github.com/Hugobertoncelo/devburguer-api" target="_blank" class="btn-link">🛠️ Back-End</a>
       </div>
+    </div>
+
       <div class="project-card">
         <h4>✅ Projeto Exemplo 2</h4>
         <p>App de tarefas com sistema de prioridades, filtros dinâmicos e interface moderna.</p>
