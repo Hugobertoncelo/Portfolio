@@ -294,7 +294,7 @@ const projectsData = [
   {
     imgSrc: "./img/projects/controle-leite.png",
     altText: "controle-leite",
-    title: "Controle de Leite",
+    title: "Controle de Consumo de Leite Infantil",
     description: "Aplicação desenvolvida em React para auxiliar no controle do consumo diário de leite por crianças, oferecendo uma interface simples e intuitiva para acompanhamento.",
     liveLink: "https://control-milk.vercel.app/",
     githubLink: "https://github.com/Hugobertoncelo/Control-Milk",
