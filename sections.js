@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
       <a href="https://www.linkedin.com/in/hugobertoncelo" target="_blank"><i class="bx bxl-linkedin"></i></a>
       <a href="https://www.instagram.com/bertoncelo.hugo/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
       <a href="mailto:hugobertoncelo@gmail.com" target="_blank"><i class="bx bxl-gmail"></i></a>
+      <a href="https://wa.me/5528999453033" target="_blank"><i class="bx bxl-whatsapp" 
+      style="font-size: 32px; text-shadow: 1px 1px;"></i></a>
     </div>
   `;
   main.appendChild(contactSection);

@@ -143,8 +143,7 @@
   height: 100%;
 }
 
-/*botão mostrar mais e menos*/
-
+/* Seção e botões */
 #projects-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -158,7 +157,8 @@
 }
 
 #toggle-button,
-#reset-button {
+#reset-button,
+#show-all-button {
   padding: 0.7rem 1.3rem;
   cursor: pointer;
   border-radius: 6px;
@@ -167,20 +167,41 @@
   font-weight: 600;
   transition: background-color 0.3s;
   margin-top: 0;
-}
-
-#toggle-button {
   background-color: var(--second-bg-color);
 }
 
-#toggle-button:hover {
+#toggle-button:hover,
+#reset-button:hover,
+#show-all-button:hover {
   background-color: var(--second-text-color);
 }
 
-#reset-button {
+/* Botões de categoria */
+#category-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
   background-color: var(--second-bg-color);
 }
 
-#reset-button:hover {
+.category-btn:hover {
   background-color: var(--second-text-color);
+}
+
+.category-btn.active {
+  background-color: #800080;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
