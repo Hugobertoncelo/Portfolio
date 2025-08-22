@@ -45,7 +45,7 @@ const projectsData = [
       "Jogo simples do Mario onde é possível pular obstáculos. O jogo termina quando você colide com algum obstáculo.",
     liveLink: "https://hugobertoncelo.github.io/Mario-Game/",
     githubLink: "https://github.com/Hugobertoncelo/Mario-Game",
-    category: "javascript",
+    category: "jogos",
   },
   {
     imgSrc: "./img/projects/we-care.png",
@@ -164,7 +164,7 @@ const projectsData = [
       "Reviva a nostalgia do Jokenpô! Desenvolvi este clássico jogo usando HTML, CSS e JavaScript, com uma interface simples. Desafie a máquina e veja quem é o mestre da pedra, papel e tesoura!",
     liveLink: "https://hugobertoncelo.github.io/Jokenpo/",
     githubLink: "https://github.com/Hugobertoncelo/Jokenpo",
-    category: "javascript",
+    category: "jogos",
   },
   {
     imgSrc: "./img/projects/calculadora.png",
@@ -184,7 +184,7 @@ const projectsData = [
       "Este projeto de jogo da velha web foi criado para fins de aprendizado, utilizando HTML para a estrutura, CSS para o estilo e JavaScript para a lógica do jogo. Uma demonstração prática de desenvolvimento front-end.",
     liveLink: "https://hugobertoncelo.github.io/Jogo-da-Velha/",
     githubLink: "https://github.com/Hugobertoncelo/Jogo-da-Velha",
-    category: "html e Css",
+    category: "jogos",
   },
   {
     imgSrc: "./img/projects/tetris.png",
@@ -194,7 +194,7 @@ const projectsData = [
       "Tetris, o icônico jogo de quebra-cabeça, agora no seu navegador! Desenvolvido com HTML, CSS e JavaScript, este projeto oferece uma experiência de jogo clássica com controles intuitivos e gráficos minimalistas.",
     liveLink: "https://hugobertoncelo.github.io/Tetris/",
     githubLink: "https://github.com/Hugobertoncelo/Tetris",
-    category: "javascript",
+    category: "jogos",
   },
   {
     imgSrc: "./img/projects/dragonball.png",
@@ -244,7 +244,7 @@ const projectsData = [
       "Reviva a nostalgia do clássico Snake Game! Este projeto reimagina o icônico jogo da cobrinha utilizando as tecnologias web fundamentais: HTML para a estrutura, CSS para o estilo e JavaScript para toda a lógica e interatividade.",
     liveLink: " https://hugobertoncelo.github.io/Snake-Game/",
     githubLink: "https://github.com/Hugobertoncelo/Snake-Game",
-    category: "javascript",
+    category: "jogos",
   },
   {
     imgSrc: "./img/projects/tarefas-react.png",
@@ -311,7 +311,7 @@ categoryContainer.id = "category-container";
 projectsContainer.insertBefore(categoryContainer, portfolioContent);
 
 // Categorias
-const categories = ["todas", "react", "javascript", "typescript", "angular", "html e Css"];
+const categories = ["todas", "react", "javascript", "typescript", "angular", "html e Css", "jogos"];
 let selectedCategory = "todas";
 
 // Cria botões de categoria
